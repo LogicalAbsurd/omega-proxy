@@ -1,0 +1,2005 @@
+[01;34m.[0m
+├── [01;34mapi[0m
+│   ├── chat.js
+│   └── omega_system_prompts.txt
+├── [01;34mnode_modules[0m
+│   └── [01;34mopenai[0m
+│       ├── api-promise.d.mts
+│       ├── api-promise.d.mts.map
+│       ├── api-promise.d.ts
+│       ├── api-promise.d.ts.map
+│       ├── api-promise.js
+│       ├── api-promise.js.map
+│       ├── api-promise.mjs
+│       ├── api-promise.mjs.map
+│       ├── azure.d.mts
+│       ├── azure.d.mts.map
+│       ├── azure.d.ts
+│       ├── azure.d.ts.map
+│       ├── azure.js
+│       ├── azure.js.map
+│       ├── azure.mjs
+│       ├── azure.mjs.map
+│       ├── [01;34mbeta[0m
+│       │   └── [01;34mrealtime[0m
+│       │       ├── index.d.mts
+│       │       ├── index.d.mts.map
+│       │       ├── index.d.ts
+│       │       ├── index.d.ts.map
+│       │       ├── index.js
+│       │       ├── index.js.map
+│       │       ├── index.mjs
+│       │       ├── index.mjs.map
+│       │       ├── internal-base.d.mts
+│       │       ├── internal-base.d.mts.map
+│       │       ├── internal-base.d.ts
+│       │       ├── internal-base.d.ts.map
+│       │       ├── internal-base.js
+│       │       ├── internal-base.js.map
+│       │       ├── internal-base.mjs
+│       │       ├── internal-base.mjs.map
+│       │       ├── websocket.d.mts
+│       │       ├── websocket.d.mts.map
+│       │       ├── websocket.d.ts
+│       │       ├── websocket.d.ts.map
+│       │       ├── websocket.js
+│       │       ├── websocket.js.map
+│       │       ├── websocket.mjs
+│       │       ├── websocket.mjs.map
+│       │       ├── ws.d.mts
+│       │       ├── ws.d.mts.map
+│       │       ├── ws.d.ts
+│       │       ├── ws.d.ts.map
+│       │       ├── ws.js
+│       │       ├── ws.js.map
+│       │       ├── ws.mjs
+│       │       └── ws.mjs.map
+│       ├── [01;34mbin[0m
+│       │   ├── [01;32mcli[0m
+│       │   └── migration-config.json
+│       ├── CHANGELOG.md
+│       ├── client.d.mts
+│       ├── client.d.mts.map
+│       ├── client.d.ts
+│       ├── client.d.ts.map
+│       ├── client.js
+│       ├── client.js.map
+│       ├── client.mjs
+│       ├── client.mjs.map
+│       ├── [01;34mcore[0m
+│       │   ├── api-promise.d.mts
+│       │   ├── api-promise.d.mts.map
+│       │   ├── api-promise.d.ts
+│       │   ├── api-promise.d.ts.map
+│       │   ├── api-promise.js
+│       │   ├── api-promise.js.map
+│       │   ├── api-promise.mjs
+│       │   ├── api-promise.mjs.map
+│       │   ├── error.d.mts
+│       │   ├── error.d.mts.map
+│       │   ├── error.d.ts
+│       │   ├── error.d.ts.map
+│       │   ├── error.js
+│       │   ├── error.js.map
+│       │   ├── error.mjs
+│       │   ├── error.mjs.map
+│       │   ├── pagination.d.mts
+│       │   ├── pagination.d.mts.map
+│       │   ├── pagination.d.ts
+│       │   ├── pagination.d.ts.map
+│       │   ├── pagination.js
+│       │   ├── pagination.js.map
+│       │   ├── pagination.mjs
+│       │   ├── pagination.mjs.map
+│       │   ├── resource.d.mts
+│       │   ├── resource.d.mts.map
+│       │   ├── resource.d.ts
+│       │   ├── resource.d.ts.map
+│       │   ├── resource.js
+│       │   ├── resource.js.map
+│       │   ├── resource.mjs
+│       │   ├── resource.mjs.map
+│       │   ├── streaming.d.mts
+│       │   ├── streaming.d.mts.map
+│       │   ├── streaming.d.ts
+│       │   ├── streaming.d.ts.map
+│       │   ├── streaming.js
+│       │   ├── streaming.js.map
+│       │   ├── streaming.mjs
+│       │   ├── streaming.mjs.map
+│       │   ├── uploads.d.mts
+│       │   ├── uploads.d.mts.map
+│       │   ├── uploads.d.ts
+│       │   ├── uploads.d.ts.map
+│       │   ├── uploads.js
+│       │   ├── uploads.js.map
+│       │   ├── uploads.mjs
+│       │   └── uploads.mjs.map
+│       ├── error.d.mts
+│       ├── error.d.mts.map
+│       ├── error.d.ts
+│       ├── error.d.ts.map
+│       ├── error.js
+│       ├── error.js.map
+│       ├── error.mjs
+│       ├── error.mjs.map
+│       ├── [01;34mhelpers[0m
+│       │   ├── audio.d.mts
+│       │   ├── audio.d.mts.map
+│       │   ├── audio.d.ts
+│       │   ├── audio.d.ts.map
+│       │   ├── audio.js
+│       │   ├── audio.js.map
+│       │   ├── audio.mjs
+│       │   ├── audio.mjs.map
+│       │   ├── zod.d.mts
+│       │   ├── zod.d.mts.map
+│       │   ├── zod.d.ts
+│       │   ├── zod.d.ts.map
+│       │   ├── zod.js
+│       │   ├── zod.js.map
+│       │   ├── zod.mjs
+│       │   └── zod.mjs.map
+│       ├── index.d.mts
+│       ├── index.d.mts.map
+│       ├── index.d.ts
+│       ├── index.d.ts.map
+│       ├── index.js
+│       ├── index.js.map
+│       ├── index.mjs
+│       ├── index.mjs.map
+│       ├── [01;34minternal[0m
+│       │   ├── builtin-types.d.mts
+│       │   ├── builtin-types.d.mts.map
+│       │   ├── builtin-types.d.ts
+│       │   ├── builtin-types.d.ts.map
+│       │   ├── builtin-types.js
+│       │   ├── builtin-types.js.map
+│       │   ├── builtin-types.mjs
+│       │   ├── builtin-types.mjs.map
+│       │   ├── [01;34mdecoders[0m
+│       │   │   ├── line.d.mts
+│       │   │   ├── line.d.mts.map
+│       │   │   ├── line.d.ts
+│       │   │   ├── line.d.ts.map
+│       │   │   ├── line.js
+│       │   │   ├── line.js.map
+│       │   │   ├── line.mjs
+│       │   │   └── line.mjs.map
+│       │   ├── detect-platform.d.mts
+│       │   ├── detect-platform.d.mts.map
+│       │   ├── detect-platform.d.ts
+│       │   ├── detect-platform.d.ts.map
+│       │   ├── detect-platform.js
+│       │   ├── detect-platform.js.map
+│       │   ├── detect-platform.mjs
+│       │   ├── detect-platform.mjs.map
+│       │   ├── errors.d.mts
+│       │   ├── errors.d.mts.map
+│       │   ├── errors.d.ts
+│       │   ├── errors.d.ts.map
+│       │   ├── errors.js
+│       │   ├── errors.js.map
+│       │   ├── errors.mjs
+│       │   ├── errors.mjs.map
+│       │   ├── headers.d.mts
+│       │   ├── headers.d.mts.map
+│       │   ├── headers.d.ts
+│       │   ├── headers.d.ts.map
+│       │   ├── headers.js
+│       │   ├── headers.js.map
+│       │   ├── headers.mjs
+│       │   ├── headers.mjs.map
+│       │   ├── parse.d.mts
+│       │   ├── parse.d.mts.map
+│       │   ├── parse.d.ts
+│       │   ├── parse.d.ts.map
+│       │   ├── parse.js
+│       │   ├── parse.js.map
+│       │   ├── parse.mjs
+│       │   ├── parse.mjs.map
+│       │   ├── [01;34mqs[0m
+│       │   │   ├── formats.d.mts
+│       │   │   ├── formats.d.mts.map
+│       │   │   ├── formats.d.ts
+│       │   │   ├── formats.d.ts.map
+│       │   │   ├── formats.js
+│       │   │   ├── formats.js.map
+│       │   │   ├── formats.mjs
+│       │   │   ├── formats.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── stringify.d.mts
+│       │   │   ├── stringify.d.mts.map
+│       │   │   ├── stringify.d.ts
+│       │   │   ├── stringify.d.ts.map
+│       │   │   ├── stringify.js
+│       │   │   ├── stringify.js.map
+│       │   │   ├── stringify.mjs
+│       │   │   ├── stringify.mjs.map
+│       │   │   ├── types.d.mts
+│       │   │   ├── types.d.mts.map
+│       │   │   ├── types.d.ts
+│       │   │   ├── types.d.ts.map
+│       │   │   ├── types.js
+│       │   │   ├── types.js.map
+│       │   │   ├── types.mjs
+│       │   │   ├── types.mjs.map
+│       │   │   ├── utils.d.mts
+│       │   │   ├── utils.d.mts.map
+│       │   │   ├── utils.d.ts
+│       │   │   ├── utils.d.ts.map
+│       │   │   ├── utils.js
+│       │   │   ├── utils.js.map
+│       │   │   ├── utils.mjs
+│       │   │   └── utils.mjs.map
+│       │   ├── request-options.d.mts
+│       │   ├── request-options.d.mts.map
+│       │   ├── request-options.d.ts
+│       │   ├── request-options.d.ts.map
+│       │   ├── request-options.js
+│       │   ├── request-options.js.map
+│       │   ├── request-options.mjs
+│       │   ├── request-options.mjs.map
+│       │   ├── shims.d.mts
+│       │   ├── shims.d.mts.map
+│       │   ├── shims.d.ts
+│       │   ├── shims.d.ts.map
+│       │   ├── shims.js
+│       │   ├── shims.js.map
+│       │   ├── shims.mjs
+│       │   ├── shims.mjs.map
+│       │   ├── shim-types.d.mts
+│       │   ├── shim-types.d.mts.map
+│       │   ├── shim-types.d.ts
+│       │   ├── shim-types.d.ts.map
+│       │   ├── shim-types.js
+│       │   ├── shim-types.js.map
+│       │   ├── shim-types.mjs
+│       │   ├── shim-types.mjs.map
+│       │   ├── stream-utils.d.mts
+│       │   ├── stream-utils.d.mts.map
+│       │   ├── stream-utils.d.ts
+│       │   ├── stream-utils.d.ts.map
+│       │   ├── stream-utils.js
+│       │   ├── stream-utils.js.map
+│       │   ├── stream-utils.mjs
+│       │   ├── stream-utils.mjs.map
+│       │   ├── to-file.d.mts
+│       │   ├── to-file.d.mts.map
+│       │   ├── to-file.d.ts
+│       │   ├── to-file.d.ts.map
+│       │   ├── to-file.js
+│       │   ├── to-file.js.map
+│       │   ├── to-file.mjs
+│       │   ├── to-file.mjs.map
+│       │   ├── tslib.js
+│       │   ├── tslib.mjs
+│       │   ├── types.d.mts
+│       │   ├── types.d.mts.map
+│       │   ├── types.d.ts
+│       │   ├── types.d.ts.map
+│       │   ├── types.js
+│       │   ├── types.js.map
+│       │   ├── types.mjs
+│       │   ├── types.mjs.map
+│       │   ├── uploads.d.mts
+│       │   ├── uploads.d.mts.map
+│       │   ├── uploads.d.ts
+│       │   ├── uploads.d.ts.map
+│       │   ├── uploads.js
+│       │   ├── uploads.js.map
+│       │   ├── uploads.mjs
+│       │   ├── uploads.mjs.map
+│       │   ├── [01;34mutils[0m
+│       │   │   ├── base64.d.mts
+│       │   │   ├── base64.d.mts.map
+│       │   │   ├── base64.d.ts
+│       │   │   ├── base64.d.ts.map
+│       │   │   ├── base64.js
+│       │   │   ├── base64.js.map
+│       │   │   ├── base64.mjs
+│       │   │   ├── base64.mjs.map
+│       │   │   ├── bytes.d.mts
+│       │   │   ├── bytes.d.mts.map
+│       │   │   ├── bytes.d.ts
+│       │   │   ├── bytes.d.ts.map
+│       │   │   ├── bytes.js
+│       │   │   ├── bytes.js.map
+│       │   │   ├── bytes.mjs
+│       │   │   ├── bytes.mjs.map
+│       │   │   ├── env.d.mts
+│       │   │   ├── env.d.mts.map
+│       │   │   ├── env.d.ts
+│       │   │   ├── env.d.ts.map
+│       │   │   ├── env.js
+│       │   │   ├── env.js.map
+│       │   │   ├── env.mjs
+│       │   │   ├── env.mjs.map
+│       │   │   ├── log.d.mts
+│       │   │   ├── log.d.mts.map
+│       │   │   ├── log.d.ts
+│       │   │   ├── log.d.ts.map
+│       │   │   ├── log.js
+│       │   │   ├── log.js.map
+│       │   │   ├── log.mjs
+│       │   │   ├── log.mjs.map
+│       │   │   ├── path.d.mts
+│       │   │   ├── path.d.mts.map
+│       │   │   ├── path.d.ts
+│       │   │   ├── path.d.ts.map
+│       │   │   ├── path.js
+│       │   │   ├── path.js.map
+│       │   │   ├── path.mjs
+│       │   │   ├── path.mjs.map
+│       │   │   ├── sleep.d.mts
+│       │   │   ├── sleep.d.mts.map
+│       │   │   ├── sleep.d.ts
+│       │   │   ├── sleep.d.ts.map
+│       │   │   ├── sleep.js
+│       │   │   ├── sleep.js.map
+│       │   │   ├── sleep.mjs
+│       │   │   ├── sleep.mjs.map
+│       │   │   ├── uuid.d.mts
+│       │   │   ├── uuid.d.mts.map
+│       │   │   ├── uuid.d.ts
+│       │   │   ├── uuid.d.ts.map
+│       │   │   ├── uuid.js
+│       │   │   ├── uuid.js.map
+│       │   │   ├── uuid.mjs
+│       │   │   ├── uuid.mjs.map
+│       │   │   ├── values.d.mts
+│       │   │   ├── values.d.mts.map
+│       │   │   ├── values.d.ts
+│       │   │   ├── values.d.ts.map
+│       │   │   ├── values.js
+│       │   │   ├── values.js.map
+│       │   │   ├── values.mjs
+│       │   │   └── values.mjs.map
+│       │   ├── utils.d.mts
+│       │   ├── utils.d.mts.map
+│       │   ├── utils.d.ts
+│       │   ├── utils.d.ts.map
+│       │   ├── utils.js
+│       │   ├── utils.js.map
+│       │   ├── utils.mjs
+│       │   └── utils.mjs.map
+│       ├── [01;34mlib[0m
+│       │   ├── AbstractChatCompletionRunner.d.mts
+│       │   ├── AbstractChatCompletionRunner.d.mts.map
+│       │   ├── AbstractChatCompletionRunner.d.ts
+│       │   ├── AbstractChatCompletionRunner.d.ts.map
+│       │   ├── AbstractChatCompletionRunner.js
+│       │   ├── AbstractChatCompletionRunner.js.map
+│       │   ├── AbstractChatCompletionRunner.mjs
+│       │   ├── AbstractChatCompletionRunner.mjs.map
+│       │   ├── AssistantStream.d.mts
+│       │   ├── AssistantStream.d.mts.map
+│       │   ├── AssistantStream.d.ts
+│       │   ├── AssistantStream.d.ts.map
+│       │   ├── AssistantStream.js
+│       │   ├── AssistantStream.js.map
+│       │   ├── AssistantStream.mjs
+│       │   ├── AssistantStream.mjs.map
+│       │   ├── ChatCompletionRunner.d.mts
+│       │   ├── ChatCompletionRunner.d.mts.map
+│       │   ├── ChatCompletionRunner.d.ts
+│       │   ├── ChatCompletionRunner.d.ts.map
+│       │   ├── ChatCompletionRunner.js
+│       │   ├── ChatCompletionRunner.js.map
+│       │   ├── ChatCompletionRunner.mjs
+│       │   ├── ChatCompletionRunner.mjs.map
+│       │   ├── ChatCompletionStream.d.mts
+│       │   ├── ChatCompletionStream.d.mts.map
+│       │   ├── ChatCompletionStream.d.ts
+│       │   ├── ChatCompletionStream.d.ts.map
+│       │   ├── ChatCompletionStreamingRunner.d.mts
+│       │   ├── ChatCompletionStreamingRunner.d.mts.map
+│       │   ├── ChatCompletionStreamingRunner.d.ts
+│       │   ├── ChatCompletionStreamingRunner.d.ts.map
+│       │   ├── ChatCompletionStreamingRunner.js
+│       │   ├── ChatCompletionStreamingRunner.js.map
+│       │   ├── ChatCompletionStreamingRunner.mjs
+│       │   ├── ChatCompletionStreamingRunner.mjs.map
+│       │   ├── ChatCompletionStream.js
+│       │   ├── ChatCompletionStream.js.map
+│       │   ├── ChatCompletionStream.mjs
+│       │   ├── ChatCompletionStream.mjs.map
+│       │   ├── chatCompletionUtils.d.mts
+│       │   ├── chatCompletionUtils.d.mts.map
+│       │   ├── chatCompletionUtils.d.ts
+│       │   ├── chatCompletionUtils.d.ts.map
+│       │   ├── chatCompletionUtils.js
+│       │   ├── chatCompletionUtils.js.map
+│       │   ├── chatCompletionUtils.mjs
+│       │   ├── chatCompletionUtils.mjs.map
+│       │   ├── EventEmitter.d.mts
+│       │   ├── EventEmitter.d.mts.map
+│       │   ├── EventEmitter.d.ts
+│       │   ├── EventEmitter.d.ts.map
+│       │   ├── EventEmitter.js
+│       │   ├── EventEmitter.js.map
+│       │   ├── EventEmitter.mjs
+│       │   ├── EventEmitter.mjs.map
+│       │   ├── EventStream.d.mts
+│       │   ├── EventStream.d.mts.map
+│       │   ├── EventStream.d.ts
+│       │   ├── EventStream.d.ts.map
+│       │   ├── EventStream.js
+│       │   ├── EventStream.js.map
+│       │   ├── EventStream.mjs
+│       │   ├── EventStream.mjs.map
+│       │   ├── jsonschema.d.mts
+│       │   ├── jsonschema.d.mts.map
+│       │   ├── jsonschema.d.ts
+│       │   ├── jsonschema.d.ts.map
+│       │   ├── jsonschema.js
+│       │   ├── jsonschema.js.map
+│       │   ├── jsonschema.mjs
+│       │   ├── jsonschema.mjs.map
+│       │   ├── parser.d.mts
+│       │   ├── parser.d.mts.map
+│       │   ├── parser.d.ts
+│       │   ├── parser.d.ts.map
+│       │   ├── parser.js
+│       │   ├── parser.js.map
+│       │   ├── parser.mjs
+│       │   ├── parser.mjs.map
+│       │   ├── [01;34mresponses[0m
+│       │   │   ├── EventTypes.d.mts
+│       │   │   ├── EventTypes.d.mts.map
+│       │   │   ├── EventTypes.d.ts
+│       │   │   ├── EventTypes.d.ts.map
+│       │   │   ├── EventTypes.js
+│       │   │   ├── EventTypes.js.map
+│       │   │   ├── EventTypes.mjs
+│       │   │   ├── EventTypes.mjs.map
+│       │   │   ├── ResponseStream.d.mts
+│       │   │   ├── ResponseStream.d.mts.map
+│       │   │   ├── ResponseStream.d.ts
+│       │   │   ├── ResponseStream.d.ts.map
+│       │   │   ├── ResponseStream.js
+│       │   │   ├── ResponseStream.js.map
+│       │   │   ├── ResponseStream.mjs
+│       │   │   └── ResponseStream.mjs.map
+│       │   ├── ResponsesParser.d.mts
+│       │   ├── ResponsesParser.d.mts.map
+│       │   ├── ResponsesParser.d.ts
+│       │   ├── ResponsesParser.d.ts.map
+│       │   ├── ResponsesParser.js
+│       │   ├── ResponsesParser.js.map
+│       │   ├── ResponsesParser.mjs
+│       │   ├── ResponsesParser.mjs.map
+│       │   ├── RunnableFunction.d.mts
+│       │   ├── RunnableFunction.d.mts.map
+│       │   ├── RunnableFunction.d.ts
+│       │   ├── RunnableFunction.d.ts.map
+│       │   ├── RunnableFunction.js
+│       │   ├── RunnableFunction.js.map
+│       │   ├── RunnableFunction.mjs
+│       │   ├── RunnableFunction.mjs.map
+│       │   ├── transform.d.mts
+│       │   ├── transform.d.mts.map
+│       │   ├── transform.d.ts
+│       │   ├── transform.d.ts.map
+│       │   ├── transform.js
+│       │   ├── transform.js.map
+│       │   ├── transform.mjs
+│       │   ├── transform.mjs.map
+│       │   ├── Util.d.mts
+│       │   ├── Util.d.mts.map
+│       │   ├── Util.d.ts
+│       │   ├── Util.d.ts.map
+│       │   ├── Util.js
+│       │   ├── Util.js.map
+│       │   ├── Util.mjs
+│       │   └── Util.mjs.map
+│       ├── LICENSE
+│       ├── package.json
+│       ├── pagination.d.mts
+│       ├── pagination.d.mts.map
+│       ├── pagination.d.ts
+│       ├── pagination.d.ts.map
+│       ├── pagination.js
+│       ├── pagination.js.map
+│       ├── pagination.mjs
+│       ├── pagination.mjs.map
+│       ├── README.md
+│       ├── [01;34mrealtime[0m
+│       │   ├── index.d.mts
+│       │   ├── index.d.mts.map
+│       │   ├── index.d.ts
+│       │   ├── index.d.ts.map
+│       │   ├── index.js
+│       │   ├── index.js.map
+│       │   ├── index.mjs
+│       │   ├── index.mjs.map
+│       │   ├── internal-base.d.mts
+│       │   ├── internal-base.d.mts.map
+│       │   ├── internal-base.d.ts
+│       │   ├── internal-base.d.ts.map
+│       │   ├── internal-base.js
+│       │   ├── internal-base.js.map
+│       │   ├── internal-base.mjs
+│       │   ├── internal-base.mjs.map
+│       │   ├── websocket.d.mts
+│       │   ├── websocket.d.mts.map
+│       │   ├── websocket.d.ts
+│       │   ├── websocket.d.ts.map
+│       │   ├── websocket.js
+│       │   ├── websocket.js.map
+│       │   ├── websocket.mjs
+│       │   ├── websocket.mjs.map
+│       │   ├── ws.d.mts
+│       │   ├── ws.d.mts.map
+│       │   ├── ws.d.ts
+│       │   ├── ws.d.ts.map
+│       │   ├── ws.js
+│       │   ├── ws.js.map
+│       │   ├── ws.mjs
+│       │   └── ws.mjs.map
+│       ├── resource.d.mts
+│       ├── resource.d.mts.map
+│       ├── resource.d.ts
+│       ├── resource.d.ts.map
+│       ├── resource.js
+│       ├── resource.js.map
+│       ├── resource.mjs
+│       ├── resource.mjs.map
+│       ├── [01;34mresources[0m
+│       │   ├── [01;34maudio[0m
+│       │   │   ├── audio.d.mts
+│       │   │   ├── audio.d.mts.map
+│       │   │   ├── audio.d.ts
+│       │   │   ├── audio.d.ts.map
+│       │   │   ├── audio.js
+│       │   │   ├── audio.js.map
+│       │   │   ├── audio.mjs
+│       │   │   ├── audio.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── speech.d.mts
+│       │   │   ├── speech.d.mts.map
+│       │   │   ├── speech.d.ts
+│       │   │   ├── speech.d.ts.map
+│       │   │   ├── speech.js
+│       │   │   ├── speech.js.map
+│       │   │   ├── speech.mjs
+│       │   │   ├── speech.mjs.map
+│       │   │   ├── transcriptions.d.mts
+│       │   │   ├── transcriptions.d.mts.map
+│       │   │   ├── transcriptions.d.ts
+│       │   │   ├── transcriptions.d.ts.map
+│       │   │   ├── transcriptions.js
+│       │   │   ├── transcriptions.js.map
+│       │   │   ├── transcriptions.mjs
+│       │   │   ├── transcriptions.mjs.map
+│       │   │   ├── translations.d.mts
+│       │   │   ├── translations.d.mts.map
+│       │   │   ├── translations.d.ts
+│       │   │   ├── translations.d.ts.map
+│       │   │   ├── translations.js
+│       │   │   ├── translations.js.map
+│       │   │   ├── translations.mjs
+│       │   │   └── translations.mjs.map
+│       │   ├── audio.d.mts
+│       │   ├── audio.d.mts.map
+│       │   ├── audio.d.ts
+│       │   ├── audio.d.ts.map
+│       │   ├── audio.js
+│       │   ├── audio.js.map
+│       │   ├── audio.mjs
+│       │   ├── audio.mjs.map
+│       │   ├── batches.d.mts
+│       │   ├── batches.d.mts.map
+│       │   ├── batches.d.ts
+│       │   ├── batches.d.ts.map
+│       │   ├── batches.js
+│       │   ├── batches.js.map
+│       │   ├── batches.mjs
+│       │   ├── batches.mjs.map
+│       │   ├── [01;34mbeta[0m
+│       │   │   ├── assistants.d.mts
+│       │   │   ├── assistants.d.mts.map
+│       │   │   ├── assistants.d.ts
+│       │   │   ├── assistants.d.ts.map
+│       │   │   ├── assistants.js
+│       │   │   ├── assistants.js.map
+│       │   │   ├── assistants.mjs
+│       │   │   ├── assistants.mjs.map
+│       │   │   ├── beta.d.mts
+│       │   │   ├── beta.d.mts.map
+│       │   │   ├── beta.d.ts
+│       │   │   ├── beta.d.ts.map
+│       │   │   ├── beta.js
+│       │   │   ├── beta.js.map
+│       │   │   ├── beta.mjs
+│       │   │   ├── beta.mjs.map
+│       │   │   ├── [01;34mchatkit[0m
+│       │   │   │   ├── chatkit.d.mts
+│       │   │   │   ├── chatkit.d.mts.map
+│       │   │   │   ├── chatkit.d.ts
+│       │   │   │   ├── chatkit.d.ts.map
+│       │   │   │   ├── chatkit.js
+│       │   │   │   ├── chatkit.js.map
+│       │   │   │   ├── chatkit.mjs
+│       │   │   │   ├── chatkit.mjs.map
+│       │   │   │   ├── index.d.mts
+│       │   │   │   ├── index.d.mts.map
+│       │   │   │   ├── index.d.ts
+│       │   │   │   ├── index.d.ts.map
+│       │   │   │   ├── index.js
+│       │   │   │   ├── index.js.map
+│       │   │   │   ├── index.mjs
+│       │   │   │   ├── index.mjs.map
+│       │   │   │   ├── sessions.d.mts
+│       │   │   │   ├── sessions.d.mts.map
+│       │   │   │   ├── sessions.d.ts
+│       │   │   │   ├── sessions.d.ts.map
+│       │   │   │   ├── sessions.js
+│       │   │   │   ├── sessions.js.map
+│       │   │   │   ├── sessions.mjs
+│       │   │   │   ├── sessions.mjs.map
+│       │   │   │   ├── threads.d.mts
+│       │   │   │   ├── threads.d.mts.map
+│       │   │   │   ├── threads.d.ts
+│       │   │   │   ├── threads.d.ts.map
+│       │   │   │   ├── threads.js
+│       │   │   │   ├── threads.js.map
+│       │   │   │   ├── threads.mjs
+│       │   │   │   └── threads.mjs.map
+│       │   │   ├── chatkit.d.mts
+│       │   │   ├── chatkit.d.mts.map
+│       │   │   ├── chatkit.d.ts
+│       │   │   ├── chatkit.d.ts.map
+│       │   │   ├── chatkit.js
+│       │   │   ├── chatkit.js.map
+│       │   │   ├── chatkit.mjs
+│       │   │   ├── chatkit.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── [01;34mrealtime[0m
+│       │   │   │   ├── index.d.mts
+│       │   │   │   ├── index.d.mts.map
+│       │   │   │   ├── index.d.ts
+│       │   │   │   ├── index.d.ts.map
+│       │   │   │   ├── index.js
+│       │   │   │   ├── index.js.map
+│       │   │   │   ├── index.mjs
+│       │   │   │   ├── index.mjs.map
+│       │   │   │   ├── realtime.d.mts
+│       │   │   │   ├── realtime.d.mts.map
+│       │   │   │   ├── realtime.d.ts
+│       │   │   │   ├── realtime.d.ts.map
+│       │   │   │   ├── realtime.js
+│       │   │   │   ├── realtime.js.map
+│       │   │   │   ├── realtime.mjs
+│       │   │   │   ├── realtime.mjs.map
+│       │   │   │   ├── sessions.d.mts
+│       │   │   │   ├── sessions.d.mts.map
+│       │   │   │   ├── sessions.d.ts
+│       │   │   │   ├── sessions.d.ts.map
+│       │   │   │   ├── sessions.js
+│       │   │   │   ├── sessions.js.map
+│       │   │   │   ├── sessions.mjs
+│       │   │   │   ├── sessions.mjs.map
+│       │   │   │   ├── transcription-sessions.d.mts
+│       │   │   │   ├── transcription-sessions.d.mts.map
+│       │   │   │   ├── transcription-sessions.d.ts
+│       │   │   │   ├── transcription-sessions.d.ts.map
+│       │   │   │   ├── transcription-sessions.js
+│       │   │   │   ├── transcription-sessions.js.map
+│       │   │   │   ├── transcription-sessions.mjs
+│       │   │   │   └── transcription-sessions.mjs.map
+│       │   │   ├── realtime.d.mts
+│       │   │   ├── realtime.d.mts.map
+│       │   │   ├── realtime.d.ts
+│       │   │   ├── realtime.d.ts.map
+│       │   │   ├── realtime.js
+│       │   │   ├── realtime.js.map
+│       │   │   ├── realtime.mjs
+│       │   │   ├── realtime.mjs.map
+│       │   │   ├── [01;34mthreads[0m
+│       │   │   │   ├── index.d.mts
+│       │   │   │   ├── index.d.mts.map
+│       │   │   │   ├── index.d.ts
+│       │   │   │   ├── index.d.ts.map
+│       │   │   │   ├── index.js
+│       │   │   │   ├── index.js.map
+│       │   │   │   ├── index.mjs
+│       │   │   │   ├── index.mjs.map
+│       │   │   │   ├── messages.d.mts
+│       │   │   │   ├── messages.d.mts.map
+│       │   │   │   ├── messages.d.ts
+│       │   │   │   ├── messages.d.ts.map
+│       │   │   │   ├── messages.js
+│       │   │   │   ├── messages.js.map
+│       │   │   │   ├── messages.mjs
+│       │   │   │   ├── messages.mjs.map
+│       │   │   │   ├── [01;34mruns[0m
+│       │   │   │   │   ├── index.d.mts
+│       │   │   │   │   ├── index.d.mts.map
+│       │   │   │   │   ├── index.d.ts
+│       │   │   │   │   ├── index.d.ts.map
+│       │   │   │   │   ├── index.js
+│       │   │   │   │   ├── index.js.map
+│       │   │   │   │   ├── index.mjs
+│       │   │   │   │   ├── index.mjs.map
+│       │   │   │   │   ├── runs.d.mts
+│       │   │   │   │   ├── runs.d.mts.map
+│       │   │   │   │   ├── runs.d.ts
+│       │   │   │   │   ├── runs.d.ts.map
+│       │   │   │   │   ├── runs.js
+│       │   │   │   │   ├── runs.js.map
+│       │   │   │   │   ├── runs.mjs
+│       │   │   │   │   ├── runs.mjs.map
+│       │   │   │   │   ├── steps.d.mts
+│       │   │   │   │   ├── steps.d.mts.map
+│       │   │   │   │   ├── steps.d.ts
+│       │   │   │   │   ├── steps.d.ts.map
+│       │   │   │   │   ├── steps.js
+│       │   │   │   │   ├── steps.js.map
+│       │   │   │   │   ├── steps.mjs
+│       │   │   │   │   └── steps.mjs.map
+│       │   │   │   ├── runs.d.mts
+│       │   │   │   ├── runs.d.mts.map
+│       │   │   │   ├── runs.d.ts
+│       │   │   │   ├── runs.d.ts.map
+│       │   │   │   ├── runs.js
+│       │   │   │   ├── runs.js.map
+│       │   │   │   ├── runs.mjs
+│       │   │   │   ├── runs.mjs.map
+│       │   │   │   ├── threads.d.mts
+│       │   │   │   ├── threads.d.mts.map
+│       │   │   │   ├── threads.d.ts
+│       │   │   │   ├── threads.d.ts.map
+│       │   │   │   ├── threads.js
+│       │   │   │   ├── threads.js.map
+│       │   │   │   ├── threads.mjs
+│       │   │   │   └── threads.mjs.map
+│       │   │   ├── threads.d.mts
+│       │   │   ├── threads.d.mts.map
+│       │   │   ├── threads.d.ts
+│       │   │   ├── threads.d.ts.map
+│       │   │   ├── threads.js
+│       │   │   ├── threads.js.map
+│       │   │   ├── threads.mjs
+│       │   │   └── threads.mjs.map
+│       │   ├── beta.d.mts
+│       │   ├── beta.d.mts.map
+│       │   ├── beta.d.ts
+│       │   ├── beta.d.ts.map
+│       │   ├── beta.js
+│       │   ├── beta.js.map
+│       │   ├── beta.mjs
+│       │   ├── beta.mjs.map
+│       │   ├── [01;34mchat[0m
+│       │   │   ├── chat.d.mts
+│       │   │   ├── chat.d.mts.map
+│       │   │   ├── chat.d.ts
+│       │   │   ├── chat.d.ts.map
+│       │   │   ├── chat.js
+│       │   │   ├── chat.js.map
+│       │   │   ├── chat.mjs
+│       │   │   ├── chat.mjs.map
+│       │   │   ├── [01;34mcompletions[0m
+│       │   │   │   ├── completions.d.mts
+│       │   │   │   ├── completions.d.mts.map
+│       │   │   │   ├── completions.d.ts
+│       │   │   │   ├── completions.d.ts.map
+│       │   │   │   ├── completions.js
+│       │   │   │   ├── completions.js.map
+│       │   │   │   ├── completions.mjs
+│       │   │   │   ├── completions.mjs.map
+│       │   │   │   ├── index.d.mts
+│       │   │   │   ├── index.d.mts.map
+│       │   │   │   ├── index.d.ts
+│       │   │   │   ├── index.d.ts.map
+│       │   │   │   ├── index.js
+│       │   │   │   ├── index.js.map
+│       │   │   │   ├── index.mjs
+│       │   │   │   ├── index.mjs.map
+│       │   │   │   ├── messages.d.mts
+│       │   │   │   ├── messages.d.mts.map
+│       │   │   │   ├── messages.d.ts
+│       │   │   │   ├── messages.d.ts.map
+│       │   │   │   ├── messages.js
+│       │   │   │   ├── messages.js.map
+│       │   │   │   ├── messages.mjs
+│       │   │   │   └── messages.mjs.map
+│       │   │   ├── completions.d.mts
+│       │   │   ├── completions.d.mts.map
+│       │   │   ├── completions.d.ts
+│       │   │   ├── completions.d.ts.map
+│       │   │   ├── completions.js
+│       │   │   ├── completions.js.map
+│       │   │   ├── completions.mjs
+│       │   │   ├── completions.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   └── index.mjs.map
+│       │   ├── chat.d.mts
+│       │   ├── chat.d.mts.map
+│       │   ├── chat.d.ts
+│       │   ├── chat.d.ts.map
+│       │   ├── chat.js
+│       │   ├── chat.js.map
+│       │   ├── chat.mjs
+│       │   ├── chat.mjs.map
+│       │   ├── completions.d.mts
+│       │   ├── completions.d.mts.map
+│       │   ├── completions.d.ts
+│       │   ├── completions.d.ts.map
+│       │   ├── completions.js
+│       │   ├── completions.js.map
+│       │   ├── completions.mjs
+│       │   ├── completions.mjs.map
+│       │   ├── [01;34mcontainers[0m
+│       │   │   ├── containers.d.mts
+│       │   │   ├── containers.d.mts.map
+│       │   │   ├── containers.d.ts
+│       │   │   ├── containers.d.ts.map
+│       │   │   ├── containers.js
+│       │   │   ├── containers.js.map
+│       │   │   ├── containers.mjs
+│       │   │   ├── containers.mjs.map
+│       │   │   ├── [01;34mfiles[0m
+│       │   │   │   ├── content.d.mts
+│       │   │   │   ├── content.d.mts.map
+│       │   │   │   ├── content.d.ts
+│       │   │   │   ├── content.d.ts.map
+│       │   │   │   ├── content.js
+│       │   │   │   ├── content.js.map
+│       │   │   │   ├── content.mjs
+│       │   │   │   ├── content.mjs.map
+│       │   │   │   ├── files.d.mts
+│       │   │   │   ├── files.d.mts.map
+│       │   │   │   ├── files.d.ts
+│       │   │   │   ├── files.d.ts.map
+│       │   │   │   ├── files.js
+│       │   │   │   ├── files.js.map
+│       │   │   │   ├── files.mjs
+│       │   │   │   ├── files.mjs.map
+│       │   │   │   ├── index.d.mts
+│       │   │   │   ├── index.d.mts.map
+│       │   │   │   ├── index.d.ts
+│       │   │   │   ├── index.d.ts.map
+│       │   │   │   ├── index.js
+│       │   │   │   ├── index.js.map
+│       │   │   │   ├── index.mjs
+│       │   │   │   └── index.mjs.map
+│       │   │   ├── files.d.mts
+│       │   │   ├── files.d.mts.map
+│       │   │   ├── files.d.ts
+│       │   │   ├── files.d.ts.map
+│       │   │   ├── files.js
+│       │   │   ├── files.js.map
+│       │   │   ├── files.mjs
+│       │   │   ├── files.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   └── index.mjs.map
+│       │   ├── containers.d.mts
+│       │   ├── containers.d.mts.map
+│       │   ├── containers.d.ts
+│       │   ├── containers.d.ts.map
+│       │   ├── containers.js
+│       │   ├── containers.js.map
+│       │   ├── containers.mjs
+│       │   ├── containers.mjs.map
+│       │   ├── [01;34mconversations[0m
+│       │   │   ├── conversations.d.mts
+│       │   │   ├── conversations.d.mts.map
+│       │   │   ├── conversations.d.ts
+│       │   │   ├── conversations.d.ts.map
+│       │   │   ├── conversations.js
+│       │   │   ├── conversations.js.map
+│       │   │   ├── conversations.mjs
+│       │   │   ├── conversations.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── items.d.mts
+│       │   │   ├── items.d.mts.map
+│       │   │   ├── items.d.ts
+│       │   │   ├── items.d.ts.map
+│       │   │   ├── items.js
+│       │   │   ├── items.js.map
+│       │   │   ├── items.mjs
+│       │   │   └── items.mjs.map
+│       │   ├── conversations.d.mts
+│       │   ├── conversations.d.mts.map
+│       │   ├── conversations.d.ts
+│       │   ├── conversations.d.ts.map
+│       │   ├── conversations.js
+│       │   ├── conversations.js.map
+│       │   ├── conversations.mjs
+│       │   ├── conversations.mjs.map
+│       │   ├── embeddings.d.mts
+│       │   ├── embeddings.d.mts.map
+│       │   ├── embeddings.d.ts
+│       │   ├── embeddings.d.ts.map
+│       │   ├── embeddings.js
+│       │   ├── embeddings.js.map
+│       │   ├── embeddings.mjs
+│       │   ├── embeddings.mjs.map
+│       │   ├── [01;34mevals[0m
+│       │   │   ├── evals.d.mts
+│       │   │   ├── evals.d.mts.map
+│       │   │   ├── evals.d.ts
+│       │   │   ├── evals.d.ts.map
+│       │   │   ├── evals.js
+│       │   │   ├── evals.js.map
+│       │   │   ├── evals.mjs
+│       │   │   ├── evals.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── [01;34mruns[0m
+│       │   │   │   ├── index.d.mts
+│       │   │   │   ├── index.d.mts.map
+│       │   │   │   ├── index.d.ts
+│       │   │   │   ├── index.d.ts.map
+│       │   │   │   ├── index.js
+│       │   │   │   ├── index.js.map
+│       │   │   │   ├── index.mjs
+│       │   │   │   ├── index.mjs.map
+│       │   │   │   ├── output-items.d.mts
+│       │   │   │   ├── output-items.d.mts.map
+│       │   │   │   ├── output-items.d.ts
+│       │   │   │   ├── output-items.d.ts.map
+│       │   │   │   ├── output-items.js
+│       │   │   │   ├── output-items.js.map
+│       │   │   │   ├── output-items.mjs
+│       │   │   │   ├── output-items.mjs.map
+│       │   │   │   ├── runs.d.mts
+│       │   │   │   ├── runs.d.mts.map
+│       │   │   │   ├── runs.d.ts
+│       │   │   │   ├── runs.d.ts.map
+│       │   │   │   ├── runs.js
+│       │   │   │   ├── runs.js.map
+│       │   │   │   ├── runs.mjs
+│       │   │   │   └── runs.mjs.map
+│       │   │   ├── runs.d.mts
+│       │   │   ├── runs.d.mts.map
+│       │   │   ├── runs.d.ts
+│       │   │   ├── runs.d.ts.map
+│       │   │   ├── runs.js
+│       │   │   ├── runs.js.map
+│       │   │   ├── runs.mjs
+│       │   │   └── runs.mjs.map
+│       │   ├── evals.d.mts
+│       │   ├── evals.d.mts.map
+│       │   ├── evals.d.ts
+│       │   ├── evals.d.ts.map
+│       │   ├── evals.js
+│       │   ├── evals.js.map
+│       │   ├── evals.mjs
+│       │   ├── evals.mjs.map
+│       │   ├── files.d.mts
+│       │   ├── files.d.mts.map
+│       │   ├── files.d.ts
+│       │   ├── files.d.ts.map
+│       │   ├── files.js
+│       │   ├── files.js.map
+│       │   ├── files.mjs
+│       │   ├── files.mjs.map
+│       │   ├── [01;34mfine-tuning[0m
+│       │   │   ├── [01;34malpha[0m
+│       │   │   │   ├── alpha.d.mts
+│       │   │   │   ├── alpha.d.mts.map
+│       │   │   │   ├── alpha.d.ts
+│       │   │   │   ├── alpha.d.ts.map
+│       │   │   │   ├── alpha.js
+│       │   │   │   ├── alpha.js.map
+│       │   │   │   ├── alpha.mjs
+│       │   │   │   ├── alpha.mjs.map
+│       │   │   │   ├── graders.d.mts
+│       │   │   │   ├── graders.d.mts.map
+│       │   │   │   ├── graders.d.ts
+│       │   │   │   ├── graders.d.ts.map
+│       │   │   │   ├── graders.js
+│       │   │   │   ├── graders.js.map
+│       │   │   │   ├── graders.mjs
+│       │   │   │   ├── graders.mjs.map
+│       │   │   │   ├── index.d.mts
+│       │   │   │   ├── index.d.mts.map
+│       │   │   │   ├── index.d.ts
+│       │   │   │   ├── index.d.ts.map
+│       │   │   │   ├── index.js
+│       │   │   │   ├── index.js.map
+│       │   │   │   ├── index.mjs
+│       │   │   │   └── index.mjs.map
+│       │   │   ├── alpha.d.mts
+│       │   │   ├── alpha.d.mts.map
+│       │   │   ├── alpha.d.ts
+│       │   │   ├── alpha.d.ts.map
+│       │   │   ├── alpha.js
+│       │   │   ├── alpha.js.map
+│       │   │   ├── alpha.mjs
+│       │   │   ├── alpha.mjs.map
+│       │   │   ├── [01;34mcheckpoints[0m
+│       │   │   │   ├── checkpoints.d.mts
+│       │   │   │   ├── checkpoints.d.mts.map
+│       │   │   │   ├── checkpoints.d.ts
+│       │   │   │   ├── checkpoints.d.ts.map
+│       │   │   │   ├── checkpoints.js
+│       │   │   │   ├── checkpoints.js.map
+│       │   │   │   ├── checkpoints.mjs
+│       │   │   │   ├── checkpoints.mjs.map
+│       │   │   │   ├── index.d.mts
+│       │   │   │   ├── index.d.mts.map
+│       │   │   │   ├── index.d.ts
+│       │   │   │   ├── index.d.ts.map
+│       │   │   │   ├── index.js
+│       │   │   │   ├── index.js.map
+│       │   │   │   ├── index.mjs
+│       │   │   │   ├── index.mjs.map
+│       │   │   │   ├── permissions.d.mts
+│       │   │   │   ├── permissions.d.mts.map
+│       │   │   │   ├── permissions.d.ts
+│       │   │   │   ├── permissions.d.ts.map
+│       │   │   │   ├── permissions.js
+│       │   │   │   ├── permissions.js.map
+│       │   │   │   ├── permissions.mjs
+│       │   │   │   └── permissions.mjs.map
+│       │   │   ├── checkpoints.d.mts
+│       │   │   ├── checkpoints.d.mts.map
+│       │   │   ├── checkpoints.d.ts
+│       │   │   ├── checkpoints.d.ts.map
+│       │   │   ├── checkpoints.js
+│       │   │   ├── checkpoints.js.map
+│       │   │   ├── checkpoints.mjs
+│       │   │   ├── checkpoints.mjs.map
+│       │   │   ├── fine-tuning.d.mts
+│       │   │   ├── fine-tuning.d.mts.map
+│       │   │   ├── fine-tuning.d.ts
+│       │   │   ├── fine-tuning.d.ts.map
+│       │   │   ├── fine-tuning.js
+│       │   │   ├── fine-tuning.js.map
+│       │   │   ├── fine-tuning.mjs
+│       │   │   ├── fine-tuning.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── [01;34mjobs[0m
+│       │   │   │   ├── checkpoints.d.mts
+│       │   │   │   ├── checkpoints.d.mts.map
+│       │   │   │   ├── checkpoints.d.ts
+│       │   │   │   ├── checkpoints.d.ts.map
+│       │   │   │   ├── checkpoints.js
+│       │   │   │   ├── checkpoints.js.map
+│       │   │   │   ├── checkpoints.mjs
+│       │   │   │   ├── checkpoints.mjs.map
+│       │   │   │   ├── index.d.mts
+│       │   │   │   ├── index.d.mts.map
+│       │   │   │   ├── index.d.ts
+│       │   │   │   ├── index.d.ts.map
+│       │   │   │   ├── index.js
+│       │   │   │   ├── index.js.map
+│       │   │   │   ├── index.mjs
+│       │   │   │   ├── index.mjs.map
+│       │   │   │   ├── jobs.d.mts
+│       │   │   │   ├── jobs.d.mts.map
+│       │   │   │   ├── jobs.d.ts
+│       │   │   │   ├── jobs.d.ts.map
+│       │   │   │   ├── jobs.js
+│       │   │   │   ├── jobs.js.map
+│       │   │   │   ├── jobs.mjs
+│       │   │   │   └── jobs.mjs.map
+│       │   │   ├── jobs.d.mts
+│       │   │   ├── jobs.d.mts.map
+│       │   │   ├── jobs.d.ts
+│       │   │   ├── jobs.d.ts.map
+│       │   │   ├── jobs.js
+│       │   │   ├── jobs.js.map
+│       │   │   ├── jobs.mjs
+│       │   │   ├── jobs.mjs.map
+│       │   │   ├── methods.d.mts
+│       │   │   ├── methods.d.mts.map
+│       │   │   ├── methods.d.ts
+│       │   │   ├── methods.d.ts.map
+│       │   │   ├── methods.js
+│       │   │   ├── methods.js.map
+│       │   │   ├── methods.mjs
+│       │   │   └── methods.mjs.map
+│       │   ├── fine-tuning.d.mts
+│       │   ├── fine-tuning.d.mts.map
+│       │   ├── fine-tuning.d.ts
+│       │   ├── fine-tuning.d.ts.map
+│       │   ├── fine-tuning.js
+│       │   ├── fine-tuning.js.map
+│       │   ├── fine-tuning.mjs
+│       │   ├── fine-tuning.mjs.map
+│       │   ├── [01;34mgraders[0m
+│       │   │   ├── grader-models.d.mts
+│       │   │   ├── grader-models.d.mts.map
+│       │   │   ├── grader-models.d.ts
+│       │   │   ├── grader-models.d.ts.map
+│       │   │   ├── grader-models.js
+│       │   │   ├── grader-models.js.map
+│       │   │   ├── grader-models.mjs
+│       │   │   ├── grader-models.mjs.map
+│       │   │   ├── graders.d.mts
+│       │   │   ├── graders.d.mts.map
+│       │   │   ├── graders.d.ts
+│       │   │   ├── graders.d.ts.map
+│       │   │   ├── graders.js
+│       │   │   ├── graders.js.map
+│       │   │   ├── graders.mjs
+│       │   │   ├── graders.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   └── index.mjs.map
+│       │   ├── graders.d.mts
+│       │   ├── graders.d.mts.map
+│       │   ├── graders.d.ts
+│       │   ├── graders.d.ts.map
+│       │   ├── graders.js
+│       │   ├── graders.js.map
+│       │   ├── graders.mjs
+│       │   ├── graders.mjs.map
+│       │   ├── images.d.mts
+│       │   ├── images.d.mts.map
+│       │   ├── images.d.ts
+│       │   ├── images.d.ts.map
+│       │   ├── images.js
+│       │   ├── images.js.map
+│       │   ├── images.mjs
+│       │   ├── images.mjs.map
+│       │   ├── index.d.mts
+│       │   ├── index.d.mts.map
+│       │   ├── index.d.ts
+│       │   ├── index.d.ts.map
+│       │   ├── index.js
+│       │   ├── index.js.map
+│       │   ├── index.mjs
+│       │   ├── index.mjs.map
+│       │   ├── models.d.mts
+│       │   ├── models.d.mts.map
+│       │   ├── models.d.ts
+│       │   ├── models.d.ts.map
+│       │   ├── models.js
+│       │   ├── models.js.map
+│       │   ├── models.mjs
+│       │   ├── models.mjs.map
+│       │   ├── moderations.d.mts
+│       │   ├── moderations.d.mts.map
+│       │   ├── moderations.d.ts
+│       │   ├── moderations.d.ts.map
+│       │   ├── moderations.js
+│       │   ├── moderations.js.map
+│       │   ├── moderations.mjs
+│       │   ├── moderations.mjs.map
+│       │   ├── [01;34mrealtime[0m
+│       │   │   ├── calls.d.mts
+│       │   │   ├── calls.d.mts.map
+│       │   │   ├── calls.d.ts
+│       │   │   ├── calls.d.ts.map
+│       │   │   ├── calls.js
+│       │   │   ├── calls.js.map
+│       │   │   ├── calls.mjs
+│       │   │   ├── calls.mjs.map
+│       │   │   ├── client-secrets.d.mts
+│       │   │   ├── client-secrets.d.mts.map
+│       │   │   ├── client-secrets.d.ts
+│       │   │   ├── client-secrets.d.ts.map
+│       │   │   ├── client-secrets.js
+│       │   │   ├── client-secrets.js.map
+│       │   │   ├── client-secrets.mjs
+│       │   │   ├── client-secrets.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── realtime.d.mts
+│       │   │   ├── realtime.d.mts.map
+│       │   │   ├── realtime.d.ts
+│       │   │   ├── realtime.d.ts.map
+│       │   │   ├── realtime.js
+│       │   │   ├── realtime.js.map
+│       │   │   ├── realtime.mjs
+│       │   │   └── realtime.mjs.map
+│       │   ├── realtime.d.mts
+│       │   ├── realtime.d.mts.map
+│       │   ├── realtime.d.ts
+│       │   ├── realtime.d.ts.map
+│       │   ├── realtime.js
+│       │   ├── realtime.js.map
+│       │   ├── realtime.mjs
+│       │   ├── realtime.mjs.map
+│       │   ├── [01;34mresponses[0m
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── input-items.d.mts
+│       │   │   ├── input-items.d.mts.map
+│       │   │   ├── input-items.d.ts
+│       │   │   ├── input-items.d.ts.map
+│       │   │   ├── input-items.js
+│       │   │   ├── input-items.js.map
+│       │   │   ├── input-items.mjs
+│       │   │   ├── input-items.mjs.map
+│       │   │   ├── input-tokens.d.mts
+│       │   │   ├── input-tokens.d.mts.map
+│       │   │   ├── input-tokens.d.ts
+│       │   │   ├── input-tokens.d.ts.map
+│       │   │   ├── input-tokens.js
+│       │   │   ├── input-tokens.js.map
+│       │   │   ├── input-tokens.mjs
+│       │   │   ├── input-tokens.mjs.map
+│       │   │   ├── responses.d.mts
+│       │   │   ├── responses.d.mts.map
+│       │   │   ├── responses.d.ts
+│       │   │   ├── responses.d.ts.map
+│       │   │   ├── responses.js
+│       │   │   ├── responses.js.map
+│       │   │   ├── responses.mjs
+│       │   │   └── responses.mjs.map
+│       │   ├── responses.d.mts
+│       │   ├── responses.d.mts.map
+│       │   ├── responses.d.ts
+│       │   ├── responses.d.ts.map
+│       │   ├── responses.js
+│       │   ├── responses.js.map
+│       │   ├── responses.mjs
+│       │   ├── responses.mjs.map
+│       │   ├── shared.d.mts
+│       │   ├── shared.d.mts.map
+│       │   ├── shared.d.ts
+│       │   ├── shared.d.ts.map
+│       │   ├── shared.js
+│       │   ├── shared.js.map
+│       │   ├── shared.mjs
+│       │   ├── shared.mjs.map
+│       │   ├── [01;34muploads[0m
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── parts.d.mts
+│       │   │   ├── parts.d.mts.map
+│       │   │   ├── parts.d.ts
+│       │   │   ├── parts.d.ts.map
+│       │   │   ├── parts.js
+│       │   │   ├── parts.js.map
+│       │   │   ├── parts.mjs
+│       │   │   ├── parts.mjs.map
+│       │   │   ├── uploads.d.mts
+│       │   │   ├── uploads.d.mts.map
+│       │   │   ├── uploads.d.ts
+│       │   │   ├── uploads.d.ts.map
+│       │   │   ├── uploads.js
+│       │   │   ├── uploads.js.map
+│       │   │   ├── uploads.mjs
+│       │   │   └── uploads.mjs.map
+│       │   ├── uploads.d.mts
+│       │   ├── uploads.d.mts.map
+│       │   ├── uploads.d.ts
+│       │   ├── uploads.d.ts.map
+│       │   ├── uploads.js
+│       │   ├── uploads.js.map
+│       │   ├── uploads.mjs
+│       │   ├── uploads.mjs.map
+│       │   ├── [01;34mvector-stores[0m
+│       │   │   ├── file-batches.d.mts
+│       │   │   ├── file-batches.d.mts.map
+│       │   │   ├── file-batches.d.ts
+│       │   │   ├── file-batches.d.ts.map
+│       │   │   ├── file-batches.js
+│       │   │   ├── file-batches.js.map
+│       │   │   ├── file-batches.mjs
+│       │   │   ├── file-batches.mjs.map
+│       │   │   ├── files.d.mts
+│       │   │   ├── files.d.mts.map
+│       │   │   ├── files.d.ts
+│       │   │   ├── files.d.ts.map
+│       │   │   ├── files.js
+│       │   │   ├── files.js.map
+│       │   │   ├── files.mjs
+│       │   │   ├── files.mjs.map
+│       │   │   ├── index.d.mts
+│       │   │   ├── index.d.mts.map
+│       │   │   ├── index.d.ts
+│       │   │   ├── index.d.ts.map
+│       │   │   ├── index.js
+│       │   │   ├── index.js.map
+│       │   │   ├── index.mjs
+│       │   │   ├── index.mjs.map
+│       │   │   ├── vector-stores.d.mts
+│       │   │   ├── vector-stores.d.mts.map
+│       │   │   ├── vector-stores.d.ts
+│       │   │   ├── vector-stores.d.ts.map
+│       │   │   ├── vector-stores.js
+│       │   │   ├── vector-stores.js.map
+│       │   │   ├── vector-stores.mjs
+│       │   │   └── vector-stores.mjs.map
+│       │   ├── vector-stores.d.mts
+│       │   ├── vector-stores.d.mts.map
+│       │   ├── vector-stores.d.ts
+│       │   ├── vector-stores.d.ts.map
+│       │   ├── vector-stores.js
+│       │   ├── vector-stores.js.map
+│       │   ├── vector-stores.mjs
+│       │   ├── vector-stores.mjs.map
+│       │   ├── videos.d.mts
+│       │   ├── videos.d.mts.map
+│       │   ├── videos.d.ts
+│       │   ├── videos.d.ts.map
+│       │   ├── videos.js
+│       │   ├── videos.js.map
+│       │   ├── videos.mjs
+│       │   ├── videos.mjs.map
+│       │   ├── webhooks.d.mts
+│       │   ├── webhooks.d.mts.map
+│       │   ├── webhooks.d.ts
+│       │   ├── webhooks.d.ts.map
+│       │   ├── webhooks.js
+│       │   ├── webhooks.js.map
+│       │   ├── webhooks.mjs
+│       │   └── webhooks.mjs.map
+│       ├── resources.d.mts
+│       ├── resources.d.mts.map
+│       ├── resources.d.ts
+│       ├── resources.d.ts.map
+│       ├── resources.js
+│       ├── resources.js.map
+│       ├── resources.mjs
+│       ├── resources.mjs.map
+│       ├── [01;34msrc[0m
+│       │   ├── api-promise.ts
+│       │   ├── azure.ts
+│       │   ├── [01;34mbeta[0m
+│       │   │   └── [01;34mrealtime[0m
+│       │   │       ├── index.ts
+│       │   │       ├── internal-base.ts
+│       │   │       ├── websocket.ts
+│       │   │       └── ws.ts
+│       │   ├── client.ts
+│       │   ├── [01;34mcore[0m
+│       │   │   ├── api-promise.ts
+│       │   │   ├── error.ts
+│       │   │   ├── pagination.ts
+│       │   │   ├── README.md
+│       │   │   ├── resource.ts
+│       │   │   ├── streaming.ts
+│       │   │   └── uploads.ts
+│       │   ├── error.ts
+│       │   ├── [01;34mhelpers[0m
+│       │   │   ├── audio.ts
+│       │   │   └── zod.ts
+│       │   ├── index.ts
+│       │   ├── [01;34minternal[0m
+│       │   │   ├── builtin-types.ts
+│       │   │   ├── [01;34mdecoders[0m
+│       │   │   │   └── line.ts
+│       │   │   ├── detect-platform.ts
+│       │   │   ├── errors.ts
+│       │   │   ├── headers.ts
+│       │   │   ├── parse.ts
+│       │   │   ├── [01;34mqs[0m
+│       │   │   │   ├── formats.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── LICENSE.md
+│       │   │   │   ├── README.md
+│       │   │   │   ├── stringify.ts
+│       │   │   │   ├── types.ts
+│       │   │   │   └── utils.ts
+│       │   │   ├── README.md
+│       │   │   ├── request-options.ts
+│       │   │   ├── shims.ts
+│       │   │   ├── shim-types.ts
+│       │   │   ├── stream-utils.ts
+│       │   │   ├── to-file.ts
+│       │   │   ├── types.ts
+│       │   │   ├── uploads.ts
+│       │   │   ├── [01;34mutils[0m
+│       │   │   │   ├── base64.ts
+│       │   │   │   ├── bytes.ts
+│       │   │   │   ├── env.ts
+│       │   │   │   ├── log.ts
+│       │   │   │   ├── path.ts
+│       │   │   │   ├── sleep.ts
+│       │   │   │   ├── uuid.ts
+│       │   │   │   └── values.ts
+│       │   │   └── utils.ts
+│       │   ├── [01;34mlib[0m
+│       │   │   ├── AbstractChatCompletionRunner.ts
+│       │   │   ├── AssistantStream.ts
+│       │   │   ├── ChatCompletionRunner.ts
+│       │   │   ├── ChatCompletionStreamingRunner.ts
+│       │   │   ├── ChatCompletionStream.ts
+│       │   │   ├── chatCompletionUtils.ts
+│       │   │   ├── EventEmitter.ts
+│       │   │   ├── EventStream.ts
+│       │   │   ├── jsonschema.ts
+│       │   │   ├── parser.ts
+│       │   │   ├── [01;34mresponses[0m
+│       │   │   │   ├── EventTypes.ts
+│       │   │   │   └── ResponseStream.ts
+│       │   │   ├── ResponsesParser.ts
+│       │   │   ├── RunnableFunction.ts
+│       │   │   ├── transform.ts
+│       │   │   └── Util.ts
+│       │   ├── pagination.ts
+│       │   ├── [01;34mrealtime[0m
+│       │   │   ├── index.ts
+│       │   │   ├── internal-base.ts
+│       │   │   ├── websocket.ts
+│       │   │   └── ws.ts
+│       │   ├── [01;34mresources[0m
+│       │   │   ├── [01;34maudio[0m
+│       │   │   │   ├── audio.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── speech.ts
+│       │   │   │   ├── transcriptions.ts
+│       │   │   │   └── translations.ts
+│       │   │   ├── audio.ts
+│       │   │   ├── batches.ts
+│       │   │   ├── [01;34mbeta[0m
+│       │   │   │   ├── assistants.ts
+│       │   │   │   ├── beta.ts
+│       │   │   │   ├── [01;34mchatkit[0m
+│       │   │   │   │   ├── chatkit.ts
+│       │   │   │   │   ├── index.ts
+│       │   │   │   │   ├── sessions.ts
+│       │   │   │   │   └── threads.ts
+│       │   │   │   ├── chatkit.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── [01;34mrealtime[0m
+│       │   │   │   │   ├── index.ts
+│       │   │   │   │   ├── realtime.ts
+│       │   │   │   │   ├── sessions.ts
+│       │   │   │   │   └── transcription-sessions.ts
+│       │   │   │   ├── realtime.ts
+│       │   │   │   ├── [01;34mthreads[0m
+│       │   │   │   │   ├── index.ts
+│       │   │   │   │   ├── messages.ts
+│       │   │   │   │   ├── [01;34mruns[0m
+│       │   │   │   │   │   ├── index.ts
+│       │   │   │   │   │   ├── runs.ts
+│       │   │   │   │   │   └── steps.ts
+│       │   │   │   │   ├── runs.ts
+│       │   │   │   │   └── threads.ts
+│       │   │   │   └── threads.ts
+│       │   │   ├── beta.ts
+│       │   │   ├── [01;34mchat[0m
+│       │   │   │   ├── chat.ts
+│       │   │   │   ├── [01;34mcompletions[0m
+│       │   │   │   │   ├── completions.ts
+│       │   │   │   │   ├── index.ts
+│       │   │   │   │   └── messages.ts
+│       │   │   │   ├── completions.ts
+│       │   │   │   └── index.ts
+│       │   │   ├── chat.ts
+│       │   │   ├── completions.ts
+│       │   │   ├── [01;34mcontainers[0m
+│       │   │   │   ├── containers.ts
+│       │   │   │   ├── [01;34mfiles[0m
+│       │   │   │   │   ├── content.ts
+│       │   │   │   │   ├── files.ts
+│       │   │   │   │   └── index.ts
+│       │   │   │   ├── files.ts
+│       │   │   │   └── index.ts
+│       │   │   ├── containers.ts
+│       │   │   ├── [01;34mconversations[0m
+│       │   │   │   ├── conversations.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   └── items.ts
+│       │   │   ├── conversations.ts
+│       │   │   ├── embeddings.ts
+│       │   │   ├── [01;34mevals[0m
+│       │   │   │   ├── evals.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── [01;34mruns[0m
+│       │   │   │   │   ├── index.ts
+│       │   │   │   │   ├── output-items.ts
+│       │   │   │   │   └── runs.ts
+│       │   │   │   └── runs.ts
+│       │   │   ├── evals.ts
+│       │   │   ├── files.ts
+│       │   │   ├── [01;34mfine-tuning[0m
+│       │   │   │   ├── [01;34malpha[0m
+│       │   │   │   │   ├── alpha.ts
+│       │   │   │   │   ├── graders.ts
+│       │   │   │   │   └── index.ts
+│       │   │   │   ├── alpha.ts
+│       │   │   │   ├── [01;34mcheckpoints[0m
+│       │   │   │   │   ├── checkpoints.ts
+│       │   │   │   │   ├── index.ts
+│       │   │   │   │   └── permissions.ts
+│       │   │   │   ├── checkpoints.ts
+│       │   │   │   ├── fine-tuning.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── [01;34mjobs[0m
+│       │   │   │   │   ├── checkpoints.ts
+│       │   │   │   │   ├── index.ts
+│       │   │   │   │   └── jobs.ts
+│       │   │   │   ├── jobs.ts
+│       │   │   │   └── methods.ts
+│       │   │   ├── fine-tuning.ts
+│       │   │   ├── [01;34mgraders[0m
+│       │   │   │   ├── grader-models.ts
+│       │   │   │   ├── graders.ts
+│       │   │   │   └── index.ts
+│       │   │   ├── graders.ts
+│       │   │   ├── images.ts
+│       │   │   ├── index.ts
+│       │   │   ├── models.ts
+│       │   │   ├── moderations.ts
+│       │   │   ├── [01;34mrealtime[0m
+│       │   │   │   ├── calls.ts
+│       │   │   │   ├── client-secrets.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   └── realtime.ts
+│       │   │   ├── realtime.ts
+│       │   │   ├── [01;34mresponses[0m
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── input-items.ts
+│       │   │   │   ├── input-tokens.ts
+│       │   │   │   └── responses.ts
+│       │   │   ├── responses.ts
+│       │   │   ├── shared.ts
+│       │   │   ├── [01;34muploads[0m
+│       │   │   │   ├── index.ts
+│       │   │   │   ├── parts.ts
+│       │   │   │   └── uploads.ts
+│       │   │   ├── uploads.ts
+│       │   │   ├── [01;34mvector-stores[0m
+│       │   │   │   ├── file-batches.ts
+│       │   │   │   ├── files.ts
+│       │   │   │   ├── index.ts
+│       │   │   │   └── vector-stores.ts
+│       │   │   ├── vector-stores.ts
+│       │   │   ├── videos.ts
+│       │   │   └── webhooks.ts
+│       │   ├── resources.ts
+│       │   ├── resource.ts
+│       │   ├── streaming.ts
+│       │   ├── tsconfig.json
+│       │   ├── uploads.ts
+│       │   ├── [01;34m_vendor[0m
+│       │   │   ├── [01;34mpartial-json-parser[0m
+│       │   │   │   ├── parser.ts
+│       │   │   │   └── README.md
+│       │   │   └── [01;34mzod-to-json-schema[0m
+│       │   │       ├── errorMessages.ts
+│       │   │       ├── index.ts
+│       │   │       ├── LICENSE
+│       │   │       ├── Options.ts
+│       │   │       ├── parseDef.ts
+│       │   │       ├── [01;34mparsers[0m
+│       │   │       │   ├── any.ts
+│       │   │       │   ├── array.ts
+│       │   │       │   ├── bigint.ts
+│       │   │       │   ├── boolean.ts
+│       │   │       │   ├── branded.ts
+│       │   │       │   ├── catch.ts
+│       │   │       │   ├── date.ts
+│       │   │       │   ├── default.ts
+│       │   │       │   ├── effects.ts
+│       │   │       │   ├── enum.ts
+│       │   │       │   ├── intersection.ts
+│       │   │       │   ├── literal.ts
+│       │   │       │   ├── map.ts
+│       │   │       │   ├── nativeEnum.ts
+│       │   │       │   ├── never.ts
+│       │   │       │   ├── nullable.ts
+│       │   │       │   ├── null.ts
+│       │   │       │   ├── number.ts
+│       │   │       │   ├── object.ts
+│       │   │       │   ├── optional.ts
+│       │   │       │   ├── pipeline.ts
+│       │   │       │   ├── promise.ts
+│       │   │       │   ├── readonly.ts
+│       │   │       │   ├── record.ts
+│       │   │       │   ├── set.ts
+│       │   │       │   ├── string.ts
+│       │   │       │   ├── tuple.ts
+│       │   │       │   ├── undefined.ts
+│       │   │       │   ├── union.ts
+│       │   │       │   └── unknown.ts
+│       │   │       ├── README.md
+│       │   │       ├── Refs.ts
+│       │   │       ├── util.ts
+│       │   │       └── zodToJsonSchema.ts
+│       │   └── version.ts
+│       ├── streaming.d.mts
+│       ├── streaming.d.mts.map
+│       ├── streaming.d.ts
+│       ├── streaming.d.ts.map
+│       ├── streaming.js
+│       ├── streaming.js.map
+│       ├── streaming.mjs
+│       ├── streaming.mjs.map
+│       ├── uploads.d.mts
+│       ├── uploads.d.mts.map
+│       ├── uploads.d.ts
+│       ├── uploads.d.ts.map
+│       ├── uploads.js
+│       ├── uploads.js.map
+│       ├── uploads.mjs
+│       ├── uploads.mjs.map
+│       ├── [01;34m_vendor[0m
+│       │   ├── [01;34mpartial-json-parser[0m
+│       │   │   ├── parser.d.mts
+│       │   │   ├── parser.d.mts.map
+│       │   │   ├── parser.d.ts
+│       │   │   ├── parser.d.ts.map
+│       │   │   ├── parser.js
+│       │   │   ├── parser.js.map
+│       │   │   ├── parser.mjs
+│       │   │   └── parser.mjs.map
+│       │   └── [01;34mzod-to-json-schema[0m
+│       │       ├── errorMessages.d.mts
+│       │       ├── errorMessages.d.mts.map
+│       │       ├── errorMessages.d.ts
+│       │       ├── errorMessages.d.ts.map
+│       │       ├── errorMessages.js
+│       │       ├── errorMessages.js.map
+│       │       ├── errorMessages.mjs
+│       │       ├── errorMessages.mjs.map
+│       │       ├── index.d.mts
+│       │       ├── index.d.mts.map
+│       │       ├── index.d.ts
+│       │       ├── index.d.ts.map
+│       │       ├── index.js
+│       │       ├── index.js.map
+│       │       ├── index.mjs
+│       │       ├── index.mjs.map
+│       │       ├── Options.d.mts
+│       │       ├── Options.d.mts.map
+│       │       ├── Options.d.ts
+│       │       ├── Options.d.ts.map
+│       │       ├── Options.js
+│       │       ├── Options.js.map
+│       │       ├── Options.mjs
+│       │       ├── Options.mjs.map
+│       │       ├── parseDef.d.mts
+│       │       ├── parseDef.d.mts.map
+│       │       ├── parseDef.d.ts
+│       │       ├── parseDef.d.ts.map
+│       │       ├── parseDef.js
+│       │       ├── parseDef.js.map
+│       │       ├── parseDef.mjs
+│       │       ├── parseDef.mjs.map
+│       │       ├── [01;34mparsers[0m
+│       │       │   ├── any.d.mts
+│       │       │   ├── any.d.mts.map
+│       │       │   ├── any.d.ts
+│       │       │   ├── any.d.ts.map
+│       │       │   ├── any.js
+│       │       │   ├── any.js.map
+│       │       │   ├── any.mjs
+│       │       │   ├── any.mjs.map
+│       │       │   ├── array.d.mts
+│       │       │   ├── array.d.mts.map
+│       │       │   ├── array.d.ts
+│       │       │   ├── array.d.ts.map
+│       │       │   ├── array.js
+│       │       │   ├── array.js.map
+│       │       │   ├── array.mjs
+│       │       │   ├── array.mjs.map
+│       │       │   ├── bigint.d.mts
+│       │       │   ├── bigint.d.mts.map
+│       │       │   ├── bigint.d.ts
+│       │       │   ├── bigint.d.ts.map
+│       │       │   ├── bigint.js
+│       │       │   ├── bigint.js.map
+│       │       │   ├── bigint.mjs
+│       │       │   ├── bigint.mjs.map
+│       │       │   ├── boolean.d.mts
+│       │       │   ├── boolean.d.mts.map
+│       │       │   ├── boolean.d.ts
+│       │       │   ├── boolean.d.ts.map
+│       │       │   ├── boolean.js
+│       │       │   ├── boolean.js.map
+│       │       │   ├── boolean.mjs
+│       │       │   ├── boolean.mjs.map
+│       │       │   ├── branded.d.mts
+│       │       │   ├── branded.d.mts.map
+│       │       │   ├── branded.d.ts
+│       │       │   ├── branded.d.ts.map
+│       │       │   ├── branded.js
+│       │       │   ├── branded.js.map
+│       │       │   ├── branded.mjs
+│       │       │   ├── branded.mjs.map
+│       │       │   ├── catch.d.mts
+│       │       │   ├── catch.d.mts.map
+│       │       │   ├── catch.d.ts
+│       │       │   ├── catch.d.ts.map
+│       │       │   ├── catch.js
+│       │       │   ├── catch.js.map
+│       │       │   ├── catch.mjs
+│       │       │   ├── catch.mjs.map
+│       │       │   ├── date.d.mts
+│       │       │   ├── date.d.mts.map
+│       │       │   ├── date.d.ts
+│       │       │   ├── date.d.ts.map
+│       │       │   ├── date.js
+│       │       │   ├── date.js.map
+│       │       │   ├── date.mjs
+│       │       │   ├── date.mjs.map
+│       │       │   ├── default.d.mts
+│       │       │   ├── default.d.mts.map
+│       │       │   ├── default.d.ts
+│       │       │   ├── default.d.ts.map
+│       │       │   ├── default.js
+│       │       │   ├── default.js.map
+│       │       │   ├── default.mjs
+│       │       │   ├── default.mjs.map
+│       │       │   ├── effects.d.mts
+│       │       │   ├── effects.d.mts.map
+│       │       │   ├── effects.d.ts
+│       │       │   ├── effects.d.ts.map
+│       │       │   ├── effects.js
+│       │       │   ├── effects.js.map
+│       │       │   ├── effects.mjs
+│       │       │   ├── effects.mjs.map
+│       │       │   ├── enum.d.mts
+│       │       │   ├── enum.d.mts.map
+│       │       │   ├── enum.d.ts
+│       │       │   ├── enum.d.ts.map
+│       │       │   ├── enum.js
+│       │       │   ├── enum.js.map
+│       │       │   ├── enum.mjs
+│       │       │   ├── enum.mjs.map
+│       │       │   ├── intersection.d.mts
+│       │       │   ├── intersection.d.mts.map
+│       │       │   ├── intersection.d.ts
+│       │       │   ├── intersection.d.ts.map
+│       │       │   ├── intersection.js
+│       │       │   ├── intersection.js.map
+│       │       │   ├── intersection.mjs
+│       │       │   ├── intersection.mjs.map
+│       │       │   ├── literal.d.mts
+│       │       │   ├── literal.d.mts.map
+│       │       │   ├── literal.d.ts
+│       │       │   ├── literal.d.ts.map
+│       │       │   ├── literal.js
+│       │       │   ├── literal.js.map
+│       │       │   ├── literal.mjs
+│       │       │   ├── literal.mjs.map
+│       │       │   ├── map.d.mts
+│       │       │   ├── map.d.mts.map
+│       │       │   ├── map.d.ts
+│       │       │   ├── map.d.ts.map
+│       │       │   ├── map.js
+│       │       │   ├── map.js.map
+│       │       │   ├── map.mjs
+│       │       │   ├── map.mjs.map
+│       │       │   ├── nativeEnum.d.mts
+│       │       │   ├── nativeEnum.d.mts.map
+│       │       │   ├── nativeEnum.d.ts
+│       │       │   ├── nativeEnum.d.ts.map
+│       │       │   ├── nativeEnum.js
+│       │       │   ├── nativeEnum.js.map
+│       │       │   ├── nativeEnum.mjs
+│       │       │   ├── nativeEnum.mjs.map
+│       │       │   ├── never.d.mts
+│       │       │   ├── never.d.mts.map
+│       │       │   ├── never.d.ts
+│       │       │   ├── never.d.ts.map
+│       │       │   ├── never.js
+│       │       │   ├── never.js.map
+│       │       │   ├── never.mjs
+│       │       │   ├── never.mjs.map
+│       │       │   ├── nullable.d.mts
+│       │       │   ├── nullable.d.mts.map
+│       │       │   ├── nullable.d.ts
+│       │       │   ├── nullable.d.ts.map
+│       │       │   ├── nullable.js
+│       │       │   ├── nullable.js.map
+│       │       │   ├── nullable.mjs
+│       │       │   ├── nullable.mjs.map
+│       │       │   ├── null.d.mts
+│       │       │   ├── null.d.mts.map
+│       │       │   ├── null.d.ts
+│       │       │   ├── null.d.ts.map
+│       │       │   ├── null.js
+│       │       │   ├── null.js.map
+│       │       │   ├── null.mjs
+│       │       │   ├── null.mjs.map
+│       │       │   ├── number.d.mts
+│       │       │   ├── number.d.mts.map
+│       │       │   ├── number.d.ts
+│       │       │   ├── number.d.ts.map
+│       │       │   ├── number.js
+│       │       │   ├── number.js.map
+│       │       │   ├── number.mjs
+│       │       │   ├── number.mjs.map
+│       │       │   ├── object.d.mts
+│       │       │   ├── object.d.mts.map
+│       │       │   ├── object.d.ts
+│       │       │   ├── object.d.ts.map
+│       │       │   ├── object.js
+│       │       │   ├── object.js.map
+│       │       │   ├── object.mjs
+│       │       │   ├── object.mjs.map
+│       │       │   ├── optional.d.mts
+│       │       │   ├── optional.d.mts.map
+│       │       │   ├── optional.d.ts
+│       │       │   ├── optional.d.ts.map
+│       │       │   ├── optional.js
+│       │       │   ├── optional.js.map
+│       │       │   ├── optional.mjs
+│       │       │   ├── optional.mjs.map
+│       │       │   ├── pipeline.d.mts
+│       │       │   ├── pipeline.d.mts.map
+│       │       │   ├── pipeline.d.ts
+│       │       │   ├── pipeline.d.ts.map
+│       │       │   ├── pipeline.js
+│       │       │   ├── pipeline.js.map
+│       │       │   ├── pipeline.mjs
+│       │       │   ├── pipeline.mjs.map
+│       │       │   ├── promise.d.mts
+│       │       │   ├── promise.d.mts.map
+│       │       │   ├── promise.d.ts
+│       │       │   ├── promise.d.ts.map
+│       │       │   ├── promise.js
+│       │       │   ├── promise.js.map
+│       │       │   ├── promise.mjs
+│       │       │   ├── promise.mjs.map
+│       │       │   ├── readonly.d.mts
+│       │       │   ├── readonly.d.mts.map
+│       │       │   ├── readonly.d.ts
+│       │       │   ├── readonly.d.ts.map
+│       │       │   ├── readonly.js
+│       │       │   ├── readonly.js.map
+│       │       │   ├── readonly.mjs
+│       │       │   ├── readonly.mjs.map
+│       │       │   ├── record.d.mts
+│       │       │   ├── record.d.mts.map
+│       │       │   ├── record.d.ts
+│       │       │   ├── record.d.ts.map
+│       │       │   ├── record.js
+│       │       │   ├── record.js.map
+│       │       │   ├── record.mjs
+│       │       │   ├── record.mjs.map
+│       │       │   ├── set.d.mts
+│       │       │   ├── set.d.mts.map
+│       │       │   ├── set.d.ts
+│       │       │   ├── set.d.ts.map
+│       │       │   ├── set.js
+│       │       │   ├── set.js.map
+│       │       │   ├── set.mjs
+│       │       │   ├── set.mjs.map
+│       │       │   ├── string.d.mts
+│       │       │   ├── string.d.mts.map
+│       │       │   ├── string.d.ts
+│       │       │   ├── string.d.ts.map
+│       │       │   ├── string.js
+│       │       │   ├── string.js.map
+│       │       │   ├── string.mjs
+│       │       │   ├── string.mjs.map
+│       │       │   ├── tuple.d.mts
+│       │       │   ├── tuple.d.mts.map
+│       │       │   ├── tuple.d.ts
+│       │       │   ├── tuple.d.ts.map
+│       │       │   ├── tuple.js
+│       │       │   ├── tuple.js.map
+│       │       │   ├── tuple.mjs
+│       │       │   ├── tuple.mjs.map
+│       │       │   ├── undefined.d.mts
+│       │       │   ├── undefined.d.mts.map
+│       │       │   ├── undefined.d.ts
+│       │       │   ├── undefined.d.ts.map
+│       │       │   ├── undefined.js
+│       │       │   ├── undefined.js.map
+│       │       │   ├── undefined.mjs
+│       │       │   ├── undefined.mjs.map
+│       │       │   ├── union.d.mts
+│       │       │   ├── union.d.mts.map
+│       │       │   ├── union.d.ts
+│       │       │   ├── union.d.ts.map
+│       │       │   ├── union.js
+│       │       │   ├── union.js.map
+│       │       │   ├── union.mjs
+│       │       │   ├── union.mjs.map
+│       │       │   ├── unknown.d.mts
+│       │       │   ├── unknown.d.mts.map
+│       │       │   ├── unknown.d.ts
+│       │       │   ├── unknown.d.ts.map
+│       │       │   ├── unknown.js
+│       │       │   ├── unknown.js.map
+│       │       │   ├── unknown.mjs
+│       │       │   └── unknown.mjs.map
+│       │       ├── Refs.d.mts
+│       │       ├── Refs.d.mts.map
+│       │       ├── Refs.d.ts
+│       │       ├── Refs.d.ts.map
+│       │       ├── Refs.js
+│       │       ├── Refs.js.map
+│       │       ├── Refs.mjs
+│       │       ├── Refs.mjs.map
+│       │       ├── util.d.mts
+│       │       ├── util.d.mts.map
+│       │       ├── util.d.ts
+│       │       ├── util.d.ts.map
+│       │       ├── util.js
+│       │       ├── util.js.map
+│       │       ├── util.mjs
+│       │       ├── util.mjs.map
+│       │       ├── zodToJsonSchema.d.mts
+│       │       ├── zodToJsonSchema.d.mts.map
+│       │       ├── zodToJsonSchema.d.ts
+│       │       ├── zodToJsonSchema.d.ts.map
+│       │       ├── zodToJsonSchema.js
+│       │       ├── zodToJsonSchema.js.map
+│       │       ├── zodToJsonSchema.mjs
+│       │       └── zodToJsonSchema.mjs.map
+│       ├── version.d.mts
+│       ├── version.d.mts.map
+│       ├── version.d.ts
+│       ├── version.d.ts.map
+│       ├── version.js
+│       ├── version.js.map
+│       ├── version.mjs
+│       └── version.mjs.map
+├── package.json
+├── package-lock.json
+├── README.md
+└── tree.txt
+
+82 directories, 1921 files

@@ -60,7 +60,7 @@ export default async function handler(req) {
         });
     }
 
-    if (!process.env.OPENAI_API_KEY || !process.env.SUPABASE_URL || !process.env.SUPABASE_ANON_KEY) {
+    if (!process.env.OPENAI_API_KEY || !process.env.SUPABASE_URL || !process.env.SUPABASE_PUBLISHABLE_KEY) {
         return new Response('Missing environment variables', {
             status: 500,
             headers: CORS_HEADERS
