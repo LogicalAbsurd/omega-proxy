@@ -115,8 +115,8 @@ export default async function handler(req) {
                 {
                     method: 'POST',
                     headers: {
-                        'apikey': process.env.SUPABASE_ANON_KEY,
-                        'Authorization': `Bearer ${process.env.SUPABASE_ANON_KEY}`,
+                        'apikey': process.env.SUPABASE_PUBLISHABLE_KEY,
+                        'Authorization': `Bearer ${process.env.SUPABASE_PUBLISHABLE_KEY}`,
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
