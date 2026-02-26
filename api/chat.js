@@ -48,7 +48,6 @@ const PERSONA_MODIFIERS = {
 };
 
 export default async function handler(req) {
-
     if (req.method === 'OPTIONS') {
         return new Response(null, { headers: CORS_HEADERS });
     }
@@ -60,7 +59,11 @@ export default async function handler(req) {
         });
     }
 
-    if (!process.env.OPENAI_API_KEY || !process.env.SUPABASE_URL || !process.env.SUPABASE_PUBLISHABLE_KEY) {
+    if (
+        !process.env.OPENAI_API_KEY ||
+        !process.env.SUPABASE_URL ||
+        !process.env.SUPABASE_PUBLISHABLE_KEY
+    ) {
         return new Response('Missing environment variables', {
             status: 500,
             headers: CORS_HEADERS
@@ -89,7 +92,7 @@ export default async function handler(req) {
         const embedRes = await fetch('https://api.openai.com/v1/embeddings', {
             method: 'POST',
             headers: {
-                'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+                Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
@@ -115,8 +118,8 @@ export default async function handler(req) {
                 {
                     method: 'POST',
                     headers: {
-                        'apikey': process.env.SUPABASE_PUBLISHABLE_KEY,
-                        'Authorization': `Bearer ${process.env.SUPABASE_PUBLISHABLE_KEY}`,
+                        apikey: process.env.SUPABASE_PUBLISHABLE_KEY,
+                        Authorization: `Bearer ${process.env.SUPABASE_PUBLISHABLE_KEY}`,
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
@@ -126,23 +129,24 @@ export default async function handler(req) {
                 }
             );
 
-            if (supabaseRes.ok) {
+            // Debug visibility (so you aren't blind if it breaks later)
+            if (!supabaseRes.ok) {
+                const err = await supabaseRes.text();
+                console.log('Supabase RPC error:', supabaseRes.status, err);
+            } else {
                 const results = await supabaseRes.json();
                 loreChunks = results.map(r => `[${r.source}]\n${r.text}`);
             }
-
-        } catch {
+        } catch (e) {
+            console.log('Supabase fetch threw:', e);
             loreChunks = [];
         }
     }
 
-    const personaModifier = persona && PERSONA_MODIFIERS[persona]
-    ? PERSONA_MODIFIERS[persona]
-    : null;
+    const personaModifier =
+    persona && PERSONA_MODIFIERS[persona] ? PERSONA_MODIFIERS[persona] : null;
 
-    const finalMessages = [
-        { role: 'system', content: OMEGA_SYSTEM_PROMPT }
-    ];
+    const finalMessages = [{ role: 'system', content: OMEGA_SYSTEM_PROMPT }];
 
     if (personaModifier) {
         finalMessages.push({
@@ -154,7 +158,13 @@ export default async function handler(req) {
     if (loreChunks.length > 0) {
         finalMessages.push({
             role: 'system',
-            content: `Context fragments from prior memory:\n\n${loreChunks.join('\n\n')}`
+            content: `CANON CONTEXT (treat as authoritative for this user):
+            - Use these fragments to answer definitively when they contain relevant definitions.
+            - When a canon term appears (e.g., "Risen Spark", "Eden Nova", "Choriel"), answer with concrete canon details (roles, protocols, key phrases), not generic archetype summaries.
+            - Only generalize if the canon fragments truly do not address the question.
+            - If the user asks about "the Risen," interpret it as the ENOC term "Risen Spark" unless the user specifies another meaning.
+
+            ${loreChunks.join('\n\n')}`
         });
     }
 
@@ -165,7 +175,7 @@ export default async function handler(req) {
     const openaiRes = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+            Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
