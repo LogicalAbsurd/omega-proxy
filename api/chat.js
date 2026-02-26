@@ -121,7 +121,7 @@ export default async function handler(req) {
                     },
                     body: JSON.stringify({
                         query_embedding: userEmbedding,
-                        match_count: 3
+                        match_count: 8
                     })
                 }
             );
